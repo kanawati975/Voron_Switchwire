@@ -1,6 +1,6 @@
 First, you need a shell on your Rapberry pi (no matter which Model). You can use SSH or PuTTY or from windows command Prompt.
-```ssh pi@<your.pi.ip.address>```
-```sudo apt-get update && samba samba-common-bin```
+`ssh pi@<your.pi.ip.address>`
+`sudo apt-get update && samba samba-common-bin`
 After installation, you need to configure the samba server and define what does it shares.
 For ease, we will just create our own version:
 ```sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.old```
