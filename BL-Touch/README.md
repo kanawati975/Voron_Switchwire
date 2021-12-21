@@ -13,15 +13,15 @@ It is highly recommened to use any available insulation material to reduce heat 
 
 Here's my config senction. Please use it as reference.
 
-`[bltouch]
+`[bltouch]`
 
-sensor_pin: ## Your sensor Pin
+`sensor_pin: ## Your sensor Pin`
 
-control_pin: ## Your data Pin
+`control_pin: ## Your data Pin`
 
-probe_with_touch_mode: true
+`probe_with_touch_mode: true`
 
-pin_up_reports_not_triggered: true
+`pin_up_reports_not_triggered: true`
 
 pin_up_touch_mode_reports_triggered: true
 
