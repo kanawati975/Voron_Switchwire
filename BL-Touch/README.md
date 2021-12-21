@@ -14,31 +14,17 @@ It is highly recommened to use any available insulation material to reduce heat 
 Here's my config senction. Please use it as reference.
 
 `[bltouch]`
-
 `sensor_pin: ## Your sensor Pin`
-
 `control_pin: ## Your data Pin`
-
 `probe_with_touch_mode: true`
-
 `pin_up_reports_not_triggered: true`
-
-pin_up_touch_mode_reports_triggered: true
-
-stow_on_each_sample: False 
-
-x_offset: 0.0
-
-y_offset: -24
-
-z_offset: 0
-
-speed: 5
-
-lift_speed: 1
-
-samples: 1
-
-sample_retract_dist: 10
-
-samples_result: average`
+`pin_up_touch_mode_reports_triggered: true`
+`stow_on_each_sample: False` 
+`x_offset: 0.0`
+`y_offset: -24`
+`z_offset: 0`
+`speed: 5`
+`lift_speed: 1`
+`samples: 1`
+`sample_retract_dist: 10`
+`samples_result: average`
