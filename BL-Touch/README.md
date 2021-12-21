@@ -12,8 +12,8 @@ The M3x20 screws and the Probe Bracket are no longer needed.
 It is highly recommened to use any available insulation material to reduce heat on the touch Sensor.
 
 Here's my config senction. Please use it as reference.
-`
-[bltouch]
+
+`[bltouch]
 
 sensor_pin: ## Your sensor Pin
 
@@ -41,5 +41,4 @@ samples: 1
 
 sample_retract_dist: 10
 
-samples_result: average
-`
+samples_result: average`
