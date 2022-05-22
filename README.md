@@ -46,7 +46,7 @@ All of this Repo contents are related to the Voron Switchwire and conversions/Mo
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/cammount.jpg)
 
-[**- How to install Samba, to access your Pi's contents from windows.**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Samba)
+[**- How to install Samba, to access your Pi's contents (Klipper directory) from using Windows Explorer.**](https://github.com/kanawati975/Voron_Switchwire/blob/main/Samba/How%20to%20install%20samba.txt)
 
 [**- Sample configuration for Klipper on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Klipper)
 
