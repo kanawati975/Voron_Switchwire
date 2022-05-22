@@ -63,10 +63,15 @@ My Switchwire is a conversion from Geeetech A30 Printer, which is almost identic
 [**- Modified Headless Front Grill (AKA Skirt) with single Push Button**]()
 
 # USEFUL MACROS:
-Most used/useful Macros. 
-**All credit goes to the creators of those Macros.**
+A collection of the most used or most useful Macros. 
+### All credit goes to the creators of those Macros.
+
 [**- Start Print**]()
+
 [**- End Print**]()
+
 [**- Prime Line**]()
+
 [**- Park Toolhead**]()
+
 [**- Bed Mesh Probe (AKA G29)**]()
