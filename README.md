@@ -27,34 +27,34 @@ All of this Repo contents are related to the Voron Switchwire and conversions/Mo
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_6830.JPEG)
 
 ## What's in this Repository?
-[**BL-Touch Mod**](https://github.com/kanawati975/Voron_Switchwire/tree/main/BL-Touch)
+[**- BL-Touch Mod**](https://github.com/kanawati975/Voron_Switchwire/tree/main/BL-Touch)
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/bltouch.jpg)
 
 
-[**Emergency Mount**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Emergency%20Mount/STL)
+[**- Emergency Mount**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Emergency%20Mount/STL)
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/emount.jpeg)
 
 
-[**Counterweight Key-Bak Alternative**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Key-Bak)
+[**- Counterweight Key-Bak Alternative**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Key-Bak)
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/kbk.jpg)
 
 
-[**Raspberry pi Camera Mount**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Pi-Cam)
+[**- Raspberry pi Camera Mount**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Pi-Cam)
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/cammount.jpg)
 
-[**How to install Samba, to access your Pi's contents from windows.**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Samba)
+[**- How to install Samba, to access your Pi's contents from windows.**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Samba)
 
-[**Sample configuration for Klipper on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Klipper)
+[**- Sample configuration for Klipper on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Klipper)
 
-[**Sample configuration for Marlin on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Marlin)
+[**- Sample configuration for Marlin on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Marlin)
 
 # CONVERSION MODS:
-[**X/Z Motors Mount for the 2020 and 2040 Aluminum Extrusion Profile**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Motor_Mount)
-[**Upper Belt path / X and Z Blocks**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Upper_XZ_Blocks)
-[**Modified Toolhead for the E3D Volcano**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Volcano_Toolhead)
-[**Modified X Gantry Blocks/Carriers**](https://github.com/kanawati975/Voron_Switchwire/tree/main/XY_Gantry_Blocks)
-[**Modified Headless Front Grill (AKA Skirt) with single Push Button**]()
+[**- X/Z Motors Mount for the 2020 and 2040 Aluminum Extrusion Profile**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Motor_Mount)
+[**- Upper Belt path / X and Z Blocks**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Upper_XZ_Blocks)
+[**- Modified Toolhead for the E3D Volcano**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Volcano_Toolhead)
+[**- Modified X Gantry Blocks/Carriers**](https://github.com/kanawati975/Voron_Switchwire/tree/main/XY_Gantry_Blocks)
+[**- Modified Headless Front Grill (AKA Skirt) with single Push Button**]()
