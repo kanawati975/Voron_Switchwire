@@ -50,6 +50,7 @@ My Switchwire is a conversion from Geeetech A30 Printer, which is almost identic
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/cammount.jpg)
 
 [**- How to install Samba, to access your Pi's contents (Klipper directory) from Windows Explorer.**](https://github.com/kanawati975/Voron_Switchwire/blob/main/Samba/How%20to%20install%20samba.txt)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/smb.JPG)
 
 [**- Sample configuration for Klipper on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Klipper)
 
