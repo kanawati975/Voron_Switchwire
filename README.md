@@ -1,5 +1,5 @@
 # VORON SWITCHWIRE
-## This is a Conversion/Upgrade to VSW, for those who has 2020 and 2040 Aluminum Extrusion Profile.
+## This is a Conversion **and** few Upgrades to VSW, for those who has 2020 and 2040 Aluminum Extrusion Profile.
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/VSW.jpg)
 
