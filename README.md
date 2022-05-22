@@ -5,26 +5,29 @@
 
 All of this Repo contents are related to the Voron Switchwire and conversions/Mods. 
 
-## Features and Specifications of my VSW:
-- Automated Power Control (via Relays controlled by the Raspberry Pi)
+## Features and Specifications of my VSW
+My Switchwire is a conversion from Geeetech A30 Printer, which is almost identical to the 12V good old Creality CR-10, built with 2020 and 2040 Aluminum Extrusion Profiles. What makes it special is:
+- Automated Remote Power Control (via Relays, controlled by the Raspberry Pi from the GUI)
 - Dual linear Rails with four MGN12H Blocks on the Y Axis.
-- Enforced Aluminum 2020 Profile to almost a cube, for maximum stability.
 - Maximum print Volume: 305 x 305 x 350 mm.
-- BTT SKR-2 32Bit Controller Booard at 168MHz.
-- Raspberry Pi 3B Rev 1.2 with 32GB Class 10 MicroSD Card.
+- Controller Board BTT SKR-2 at 168MHz.
+- Raspberry Pi 3B Rev 1.2
 - TMC2130 Silent Drivers on all axis. 
 - Galileo Extruder (Direct Drive).
 - Volcano Hotend with 70W Heater Cartridge.
-- 220VAC 750W 300x300 mm Silicone heated Bed (via SSR).
+- 220VAC 750W 310x310 mm Silicone heated Bed (via SSR).
 - 310 x 310 mm Heated Build Platform, with a magnetic Spring steel Sheet.
-- Auto Bed Leveling + Well inslated Metal Detection Sensor.
+- Auto Bed (mesh) Probing... Well inslated Metal Detection Sensor/Z Probe.
 - Filament Rounout Sensor.
-- Hybrid Chamber Temperature Control (Passive Heating+Active Chamber Cooling).
+- Hybrid Chamber Temperature Control (Passive Heating + Active Chamber Cooling + Chamber Temperature Sensor).
 - Custom 3D Printed skirt, with dual 8015 silent Fans.
 - External dual USB Ports for further connections to the Raspberry Pi.
 - Dual Cameras (RaspiCam+USB Cam) for front **and** back view of the Print.
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_6830.JPEG)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/Screenshot%202022-02-22%20232121.jpg)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/Screenshot%202022-02-26%20214539.jpg)
+
 
 ## What's in this Repository?
 [**- BL-Touch Mod**](https://github.com/kanawati975/Voron_Switchwire/tree/main/BL-Touch)
