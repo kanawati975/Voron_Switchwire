@@ -57,14 +57,19 @@ My Switchwire is a conversion from Geeetech A30 Printer, which is almost identic
 
 # CONVERSION MODS:
 [**- X/Z Motors Mount for the 2020 and 2040 Aluminum Extrusion Profile**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Motor_Mount)
+
 [**- Upper Belt path / X and Z Blocks**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Upper_XZ_Blocks)
+
 [**- Modified Toolhead for the E3D Volcano**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Volcano_Toolhead)
+
 [**- Modified X Gantry Blocks/Carriers**](https://github.com/kanawati975/Voron_Switchwire/tree/main/XY_Gantry_Blocks)
+
 [**- Modified Headless Front Grill (AKA Skirt) with single Push Button**]()
+
 
 # USEFUL MACROS:
 A collection of the most used or most useful Macros. 
-### All credit goes to the creators of those Macros.
+#### All credit goes to the creators of those Macros.
 
 [**- Start Print**]()
 
