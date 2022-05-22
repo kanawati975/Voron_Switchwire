@@ -28,12 +28,16 @@ All of this Repo contents are related to the Voron Switchwire and conversions/Mo
 
 ## What's in this Repository?
 [**BL-Touch Mod**](https://github.com/kanawati975/Voron_Switchwire/tree/main/BL-Touch)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/bltouch.jpg)
 
 [**Emergency Mount**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Emergency%20Mount/STL)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/emount.jpeg)
 
 [**Counterweight Key-Bak Alternative**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Key-Bak)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/kbk.jpg)
 
 [**Raspberry pi Camera Mount**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Pi-Cam)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/cammount.jpg)
 
 [**How to install Samba, to access your Pi's contents from windows.**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Samba)
 
