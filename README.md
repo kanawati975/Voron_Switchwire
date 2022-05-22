@@ -46,7 +46,7 @@ All of this Repo contents are related to the Voron Switchwire and conversions/Mo
 
 ![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/cammount.jpg)
 
-[**- How to install Samba, to access your Pi's contents (Klipper directory) from using Windows Explorer.**](https://github.com/kanawati975/Voron_Switchwire/blob/main/Samba/How%20to%20install%20samba.txt)
+[**- How to install Samba, to access your Pi's contents (Klipper directory) from Windows Explorer.**](https://github.com/kanawati975/Voron_Switchwire/blob/main/Samba/How%20to%20install%20samba.txt)
 
 [**- Sample configuration for Klipper on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Klipper)
 
@@ -58,3 +58,12 @@ All of this Repo contents are related to the Voron Switchwire and conversions/Mo
 [**- Modified Toolhead for the E3D Volcano**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Volcano_Toolhead)
 [**- Modified X Gantry Blocks/Carriers**](https://github.com/kanawati975/Voron_Switchwire/tree/main/XY_Gantry_Blocks)
 [**- Modified Headless Front Grill (AKA Skirt) with single Push Button**]()
+
+# USEFUL MACROS:
+Most used/useful Macros. 
+**All credit goes to the creators of those Macros.**
+[**- Start Print**]()
+[**- End Print**]()
+[**- Prime Line**]()
+[**- Park Toolhead**]()
+[**- Bed Mesh Probe (AKA G29)**]()
