@@ -15,7 +15,7 @@ It will lift the Nozzle a little, to avoid collision, then moves to the right, a
 [gcode_macro PARK_TOOLHEAD]
 description: Script to park the ToolHead
 gcode:
-	 {% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
+     {% set x_park = printer.toolhead.axis_maximum.x|float - 5.0 %}
      {% set y_park = printer.toolhead.axis_maximum.y|float - 5.0 %}
      {% set max_z = printer.toolhead.axis_maximum.z|float %}
      {% set act_z = printer.toolhead.position.z|float %}
