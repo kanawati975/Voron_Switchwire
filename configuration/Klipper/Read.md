@@ -150,3 +150,17 @@ gcode:
 ```
 
 ## CANCEL_PRINT
+This Macro will interrupt the current Print Job. No need to add it to any Slicer.
+
+```
+[gcode_macro CANCEL_PRINT]
+description: Cancel the actual running print
+rename_existing: ABORT_PRINT
+gcode:
+    PARK_TOOLHEAD
+    TURN_OFF_HEATERS
+    M106 S0
+    SDCARD_RESET_FILE
+    M18
+    M117 Printing Aborted!
+```
