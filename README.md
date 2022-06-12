@@ -72,7 +72,7 @@ My Switchwire is a conversion from Geeetech A30 Printer, which is almost identic
 A collection of the most used or most useful Macros. 
 #### All credit goes to the creators of those Macros.
 
-[**- Start Print**]()
+[**- Start Print**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#start_print)
 
 [**- End Print**]()
 
