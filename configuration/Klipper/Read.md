@@ -35,7 +35,7 @@ This macro will clear any previous mesh saved, and create a new mesh, then save 
 ```
 [gcode_macro G29]
 gcode:
-	G28			#Home All Axes
+  G28			#Home All Axes
   G90
   BED_MESH_PROFILE REMOVE=default
   BED_MESH_PROFILE REMOVE=default_new
