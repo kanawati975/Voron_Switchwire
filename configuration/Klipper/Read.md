@@ -108,8 +108,11 @@ gcode:
 This is the most useful/most important Macro. **It must be added to the Slicer**
 ### SuperSlicer:
 In Printer Tab, Custom G-code section, add the follwing line to Start G-code:
+
 ```START_PRINT HOTEND={first_layer_temperature} BED={first_layer_bed_temperature}```
+
 Remember to change **HOTEND** and **BED** to what you have defined in printer.cfg
+
 ```
 [gcode_macro START_PRINT]
 gcode: 
