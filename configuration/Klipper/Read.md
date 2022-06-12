@@ -8,7 +8,7 @@ For macros, it's very common to add ```include macros.cfg``` in the printer conf
 ## Useful Macros:
 **Disclaimer:** I did not create the Macros. All credit goes to the creators.
 
-##Park Toolhead:
+## Park Toolhead:
 This Macro is very useful and can be used with a lot of other macros, such as End_Print, Filament_Change, Cancel_Print, etc.
 It will lift the Nozzle a little, to avoid collision, then moves to the right, and the bed will go forward.
 ```
@@ -30,7 +30,7 @@ gcode:
      G0 X{x_park} Y{y_park} F6000
      G91
 ```
-##Bed Probe / Mesh Leveling:
+## Bed Probe / Mesh Leveling:
 This macro will clear any previous mesh saved, and create a new mesh, then save it.
 ```
 [gcode_macro G29]
@@ -45,7 +45,7 @@ gcode:
   SAVE_CONFIG
 ```
 
-##Prime Line
+## Prime Line
 This macro will create a line at the front of the bed. Basically it will prime the Nozzle and remove any excess Filament.
 **Note:** Don't forget to add the Macro's Name to the Print_Start. If you want to customize the prime line, you can by adding the options to the Print_Start macro
 ```PRIME_LINE XPAD=10 YPAD=10 LENGTH=250 PRINT_SPEED=20 TRAVEL_SPEED=100 PURGE=15 RETRACT=1 EXTRUSION_MULTIPLIER=1.2 PRINT_HANDLE=1 HANDLE_FAN=100```
