@@ -104,3 +104,26 @@ gcode:
     RESTORE_GCODE_STATE NAME=STATE_PRIME_LINE
 ```
 
+## START_PRINT
+This is the most useful/most important Macro. **It must be added to the Slicer**
+### SuperSlicer:
+In Printer Tab, Custom G-code section, add the follwing line to Start G-code:
+```START_PRINT HOTEND={first_layer_temperature} BED={first_layer_bed_temperature}```
+Remember to change **HOTEND** and **BED** to what you have defined in printer.cfg
+```
+[gcode_macro START_PRINT]
+gcode: 
+    M106 S0
+    {% set BED = params.BED|int %}
+    {% set HOTEND = params.HOTEND|int %}
+    SET_HEATER_TEMPERATURE HEATER=heater_bed TARGET={BED}        
+    TEMPERATURE_WAIT SENSOR=heater_bed MINIMUM={BED}    
+    SET_HEATER_TEMPERATURE HEATER=extruder TARGET={HOTEND}
+    TEMPERATURE_WAIT SENSOR=extruder MINIMUM={HOTEND}
+    {% if "xyz" not in printer.toolhead.homed_axes %}
+        G28
+    {% endif %}
+    BED_MESH_PROFILE LOAD=default #Loading the saved bed mesh Profile.
+    M117 Commencing Prime Line
+    PRIME_LINE XPAD=10 YPAD=10 LENGTH=250 PRINT_SPEED=20 TRAVEL_SPEED=100 PURGE=15 RETRACT=1 EXTRUSION_MULTIPLIER=1.2 PRINT_HANDLE=1 HANDLE_FAN=100
+ ```
