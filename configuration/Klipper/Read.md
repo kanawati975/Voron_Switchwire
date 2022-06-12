@@ -6,7 +6,7 @@ If you decided to make separate files, make sure to include ```file.name``` in t
 For macros, it's very common to add ```include macros.cfg``` in the printer config file.
 
 ## Useful Macros:
-**Disclaimer:** I did not create the Macros. All credit goes to the creators.
+**Disclaimer:** I did not create the Macros. **All credit goes to the creators**
 
 ## Park Toolhead:
 This Macro is very useful and can be used with a lot of other macros, such as End_Print, Filament_Change, Cancel_Print, etc.
@@ -130,3 +130,23 @@ gcode:
     M117 Commencing Prime Line
     PRIME_LINE XPAD=10 YPAD=10 LENGTH=250 PRINT_SPEED=20 TRAVEL_SPEED=100 PURGE=15 RETRACT=1 EXTRUSION_MULTIPLIER=1.2 PRINT_HANDLE=1 HANDLE_FAN=100
  ```
+
+## END_PRINT
+This is the second most useful/most important Macro. **It must be added to the Slicer**
+### SuperSlicer / Cura:
+In Printer Tab, Custom G-code section, simply add the follwing line to End G-code:
+```END_PRINT```
+
+```
+[gcode_macro END_PRINT]
+description: Print job ending Protocol
+gcode:
+    PARK_TOOLHEAD
+    TURN_OFF_HEATERS
+    M106 S0
+    SDCARD_RESET_FILE
+    M18
+    M117 Printing Aborted!
+```
+
+## CANCEL_PRINT
