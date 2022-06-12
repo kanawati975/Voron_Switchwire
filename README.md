@@ -76,8 +76,8 @@ A collection of the most used or most useful Macros.
 
 [**- End Print**]()
 
-[**- Prime Line**]()
+[**- Prime Line**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#prime-line)
 
-[**- Park Toolhead**]()
+[**- Park Toolhead**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#park-toolhead)
 
-[**- Bed Mesh Probe (AKA G29)**]()
+[**- Bed Mesh Probe (AKA G29)**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#bed-probe--mesh-leveling)
