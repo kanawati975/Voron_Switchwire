@@ -141,12 +141,14 @@ In Printer Tab, Custom G-code section, simply add the follwing line to End G-cod
 [gcode_macro END_PRINT]
 description: Print job ending Protocol
 gcode:
-    PARK_TOOLHEAD
-    TURN_OFF_HEATERS
-    M106 S0
-    SDCARD_RESET_FILE
-    M18
-    M117 Printing Aborted!
+     G92 E0
+     G1 E-5 F200
+     PARK_TOOLHEAD
+     TURN_OFF_HEATERS
+     M106 S0
+     SDCARD_RESET_FILE
+     M18
+     M117 Printing Aborted!
 ```
 
 ## CANCEL_PRINT
