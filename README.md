@@ -80,6 +80,6 @@ A collection of the most used or most useful Macros.
 
 [**- Park Toolhead**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#park-toolhead)
 
-[**- Bed Mesh Probe (AKA G29)**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#bed-probe--mesh-leveling)
+[**- Bed Mesh Calibrate (AKA G29)**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#bed-probe--mesh-leveling)
 
 [**- Cancel/Abort Print**](https://github.com/kanawati975/Voron_Switchwire/blob/main/configuration/Klipper/Read.md#cancel_print)
