@@ -1,17 +1,29 @@
-First, you need a shell on your Rapberry pi (no matter which Model). You can use SSH or PuTTY or from windows command Prompt.
+## How to install Samba to access and manage your Files on the Raspberry Pi from a windows computer
+
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/smb.JPG)
+
+
+
+
+
+
+First, you need access your Rapberry pi (no matter which Model).
+You can use SSH or PuTTY, or directly from windows command Prompt.
 `ssh pi@<your.pi.ip.address>`
+
+Now we need to make sure that the system is up to date and then we install the program
 `sudo apt-get update && samba samba-common-bin`
 
-After installation, you need to configure the samba server and define what does it shares.
+After installation, we need to configure the samba server and define what does it shares.
 For ease, we will just create our own version:
 ```sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.old```
 
 Now we create a new config file:
 ```sudo nano /etc/samba/smb.conf```
 
-Add the following contents:
+We must add the following contents to the config file we just created:
 ```[global]
-   workgroup = WORKGROUP  ##Change this to your Workgroup name##
+   workgroup = WORKGROUP  ##Change this to your Workgroup name By dafault it's WORKGROUP on Windows##
    winsupport = yes
 
 #### Debugging/Accounting ####
@@ -57,7 +69,7 @@ Add the following contents:
    browseable = yes
    read only = yes
    guest ok = no
-   write list = pi, root, @WORKGROUP
+   write list = pi, root, @WORKGROUP  ## You may add/change the users or workgroup
 
 [share]
    comment = What do you want to share
@@ -74,7 +86,13 @@ Save (CTRL+O) and exit (CTRL+X)
 Now we need to create a samba user (which is pi) and define its password.
 ```sudo smbpasswd -a pi```
 You will be asked for a password twice. 
-Remember those because you will need them to login from windows. You could also use the same pi/raspberry defaults.
+Remember this password, because you will need it to login from windows.
+You could also use the same pi/raspberry defaults.
 
 Now we need to restart the service.
 ```sudo systemctl restart smbd```
+
+From your Windows Computer, open any explorer window, and click on "This PC" from the left side.
+Click on "Map Network Drive" from the top of the Window.
+Choose a Letter for the Drive, and specify the path to your shared Folder/Directory, which is `//<your.pi.ip.address>` Then click on NEXT
+Use the username pi and the Password you created earlier while configuring Samba.
