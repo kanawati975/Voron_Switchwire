@@ -99,5 +99,7 @@ Now we need to restart the service.
 
 From your Windows Computer, open any explorer window, and click on "This PC" from the left side.
 Click on "Map Network Drive" from the top of the Window.
+
 Choose a Letter for the Drive, and specify the path to your shared Folder/Directory, which is `//<your.pi.ip.address>` Then click on NEXT
+
 Use the username pi and the Password you created earlier while configuring Samba.
