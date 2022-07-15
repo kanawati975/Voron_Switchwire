@@ -85,12 +85,16 @@ We must add the following contents to the config file we just created:
 Save (CTRL+O) and exit (CTRL+X)
 
 Now we need to create a samba user (which is pi) and define its password.
+
 ```sudo smbpasswd -a pi```
+
 You will be asked for a password twice. 
+
 Remember this password, because you will need it to login from windows.
 You could also use the same pi/raspberry defaults.
 
 Now we need to restart the service.
+
 ```sudo systemctl restart smbd```
 
 From your Windows Computer, open any explorer window, and click on "This PC" from the left side.
