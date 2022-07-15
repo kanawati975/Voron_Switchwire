@@ -12,10 +12,11 @@ You can use SSH or PuTTY, or directly from windows command Prompt.
 `ssh pi@<your.pi.ip.address>`
 
 Now we need to make sure that the system is up to date and then we install the program
-`sudo apt-get update && samba samba-common-bin`
+`sudo apt-get update`
+`sudo apt-get install samba samba-common-bin`
 
-After installation, we need to configure the samba server and define what does it shares.
-For ease, we will just create our own version:
+After installation, we need to configure the samba server and define what do we want it to share.
+For simplicity, we will just rename the old config file and create our own version instead of a LOT of editing:
 ```sudo mv /etc/samba/smb.conf /etc/samba/smb.conf.old```
 
 Now we create a new config file:
