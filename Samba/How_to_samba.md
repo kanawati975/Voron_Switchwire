@@ -30,9 +30,8 @@ Now we create a new config file:
 ```sudo nano /etc/samba/smb.conf```
 
 We must add the following contents to the config file we just created. Simply copy them:
-
 ```[global]
-   workgroup = WORKGROUP  ##Change this to your Workgroup name By dafault it's WORKGROUP on Windows##
+   workgroup = WORKGROUP  ##Change this to your Workgroup name. By dafault it's WORKGROUP on Windows
    winsupport = yes
 
 #### Debugging/Accounting ####
@@ -98,7 +97,7 @@ Now we need to create a samba user (which is pi) and define its password.
 
 You will be asked for a password twice. 
 
-Remember this password, because you will need it to login from windows.
+**Remember this password, because you will need it to login from windows.**
 You could also use the same pi/raspberry defaults.
 
 Now we need to restart the service.
