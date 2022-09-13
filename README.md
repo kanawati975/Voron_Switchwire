@@ -24,9 +24,11 @@ My Switchwire is a conversion from Geeetech A30 Printer, which is almost identic
 - External dual USB Ports for further connections to the Raspberry Pi.
 - Dual Cameras (RaspiCam+USB Cam) for front **and** back view of the Print.
 
-![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_6830.JPEG)
-![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/Screenshot%202022-02-22%20232121.jpg)
-![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/Screenshot%202022-02-26%20214539.jpg)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_0046.jpeg)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_0047.jpeg)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_0048.jpeg)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_0049.jpeg)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_0050.jpeg)
 
 
 ## What's in this Repository?
