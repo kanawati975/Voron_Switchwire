@@ -57,7 +57,7 @@ My Switchwire is a conversion from Geeetech A30 Printer, which is almost identic
 [**- Sample configuration for Marlin on SKR-2 Controller Board**](https://github.com/kanawati975/Voron_Switchwire/tree/main/configuration/Marlin)
 
 # CONVERSION MODS:
-[**- X/Z Motors Mount for the 2020 and 2040 Aluminum Extrusion Profile**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Motor_Mount)
+[**- X/Z Motors Mount for the 2020 and 2040 Aluminum Extrusion Profile**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Motor%20Mount)
 
 [**- Upper Belt path / X and Z Blocks**](https://github.com/kanawati975/Voron_Switchwire/tree/main/Upper_XZ_Blocks)
 
