@@ -1,7 +1,7 @@
 # VORON SWITCHWIRE
 ## This is a Conversion **and** few Upgrades to VSW, for those who has 2020 and 2040 Aluminum Extrusion Profile.
 
-![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/VSW.jpg)
+![alt text](https://github.com/kanawati975/Voron_Switchwire/blob/main/Images/IMG_0046.jpeg)
 
 All of this Repo contents are related to the Voron Switchwire and conversions/Mods. 
 
