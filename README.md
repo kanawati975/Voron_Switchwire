@@ -12,13 +12,13 @@ My Switchwire is a conversion from Geeetech A30 Printer, which is almost identic
 - Maximum print Volume: 305 x 305 x 350 mm.
 - Controller Board BTT SKR-2 at 168MHz.
 - Raspberry Pi 3B Rev 1.2
-- TMC2130 Silent Drivers on all axis. 
-- Galileo Extruder (Direct Drive).
-- Volcano Hotend with 70W Heater Cartridge.
+- TMC2130 Silent Drivers on ~~all axis~~ the extruder. All other Axis are driven by Closed-Loop-System. 
+- ~~Galileo~~ Clockwork 2 Extruder (Direct Drive).
+- ~~Volcano Hotend~~ Standard V6 Nozzle with Ceramic rounded Heater Cartridge.
 - 220VAC 750W 310x310 mm Silicone heated Bed (via SSR).
 - 310 x 310 mm Heated Build Platform, with a magnetic Spring steel Sheet.
 - Auto Bed (mesh) Probing... Well inslated Metal Detection Sensor/Z Probe.
-- Filament Rounout Sensor.
+- ~~Filament Rounout Sensor~~.
 - Hybrid Chamber Temperature Control (Passive Heating + Active Chamber Cooling + Chamber Temperature Sensor).
 - Custom 3D Printed skirt, with dual 8015 silent Fans.
 - External dual USB Ports for further connections to the Raspberry Pi.
